@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[lfs]
+	repositoryformatversion = 0
+[lfs "https://github.com/0768535032/Kobby_2.git/info/lfs"]
+	access = basic
+[remote "kobby_project"]
+	url = https://github.com/0768535032/Kobby_project.git
+	fetch = +refs/heads/*:refs/remotes/kobby_project/*
+[lfs "https://github.com/0768535032/Kobby_project.git/info/lfs"]
+	access = basic
+[remote "origin"]
+	url = https://github.com/0768535032/Kobby_project_2.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
